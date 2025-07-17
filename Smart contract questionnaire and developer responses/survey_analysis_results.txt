@@ -1,0 +1,360 @@
+Enhanced Survey Analysis Results
+============================================================
+
+Total responses: 150
+
+column_mapping = {
+    'Q1: What is your role in the smart contract development process?': 'role',
+    'Q2: How many years of experience do you have with smart contract development? ': 'experience',
+    'Q3: Which programming languages do you primarily use for smart contract development?\n(Select all that apply) ': 'languages',
+    'Q4: What type of smart contract projects are you primarily involved in?\n(Select all that apply)': 'projects',
+    'Q5: How important is security and safety in your smart contract development process?': 'security_importance',
+    'Q6: Which of the following smart contract security vulnerabilities are you familiar with?\n(Select all that apply) ': 'vulnerabilities',
+    'Q7: Which security analyzers have you used during smart contract development?\nPlease list all tools you’ve used — including any you currently rely on or have used in the past.': 'analyzers_used',
+    'Q8: How frequently do you use security analyzers when developing smart contracts?\nPlease select the option that best describes the proportion of smart contracts for which you use these tools.': 'frequency',
+    'Q9: At which stages of development do you typically use security analyzers?\n(Select all that apply)': 'stages',
+    'Q10: What are your main reasons for using security analyzers?\n(Select all that apply) ': 'reasons',
+    'Q11: Which type of interface do you prefer for using a security analyzer?': 'interface',
+    'Q12: What type of input do you typically analyze with a security analyzer?': 'input_type',
+    'Q13: What is your preferred pricing model for a security analyzer?': 'pricing',
+    'Q14: What is the longest amount of time you would typically allow a security analyzer to run before expecting results?\n(i.e., if you could set a timeout, what would it be?)': 'max_time',
+    'Q15: On average, how much time do you spend verifying whether a reported vulnerability is a true positive?\n(i.e., confirming that it reflects a real issue)': 'verification_time',
+    'Q16: How confident are you in the accuracy of vulnerabilities reported by security analyzers?': 'confidence',
+    'Q17: Which of the following factors increase your confidence in a security analyzer’s results?\n(Select all that apply)': 'confidence_increase',
+    'Q18: Which of the following factors reduce your confidence in a security analyzer’s results?\n(Select all that apply)': 'confidence_decrease',
+    'Q19: Have you ever ignored a vulnerability reported by a security analyzer?\nIf yes, what was the reason?': 'ignored_vulnerability',
+    'Q20: Can you briefly explain a situation where you chose to ignore a reported vulnerability?\n(Your answer will remain anonymous)': 'ignore_reason',
+    'Q21: What kinds of explanation do you find most helpful from a security analyzer when it reports a vulnerability?\n(Select all that apply)': 'helpful_explanations',
+    'Q22: To what extent does the quality of the explanation affect your confidence in the analyzer’s results?': 'explanation_effect',
+    'Q23: If a security analyzer reports a vulnerability and provides a detailed explanation with a code snippet or suggested fix, how confident are you that the vulnerability is a true positive?': 'confidence_with_explanation',
+    'Q24: If a security analyzer reports a vulnerability but does not include an explanation, how confident are you that it is a true positive?': 'confidence_without_explanation',
+    'Q25: Do you have any suggestions for improving the explanation formats used by security analyzers?\n(How could they better support your understanding, trust, or workflow?)': 'suggestions'
+}
+
+Q1: Role
+--------
+                                            Count Percentage
+role                                                        
+Smart Contract / Blockchain Developer          67     44.67%
+Quality Assurance (QA) / Tester                47     31.33%
+Researcher / Concept Developer / Student       43     28.67%
+Technical Architect / Project Manager          39      26.0%
+Security Reviewer / Smart Contract Auditor     37     24.67%
+
+Q2: Experience
+--------------
+                   Count Percentage
+experience                         
+1–2 years             57      38.0%
+3–5 years             56     37.33%
+Less than 1 year      23     15.33%
+More than 5 years     14      9.33%
+
+Q3: Languages
+-------------
+            Count Percentage
+languages                   
+JavaScript     98     65.33%
+Solidity       93      62.0%
+Rust           60      40.0%
+Vyper          52     34.67%
+C++            47     31.33%
+Go             19     12.67%
+Move           19     12.67%
+Michelson      11      7.33%
+Plutus          6       4.0%
+python          4      2.67%
+Python          2      1.33%
+Cairo           1      0.67%
+TypeScript      1      0.67%
+cairo           1      0.67%
+
+Q4: Projects
+------------
+                                                                                                                    Count Percentage
+projects                                                                                                                            
+NFT projects (e.g., digital collectibles, marketplaces)                                                                92     61.33%
+DeFi platforms (e.g., decentralized exchanges, lending protocols)                                                      79     52.67%
+Decentralized applications (DApps) or Web3 platforms (e.g., backend smart contracts, decentralized infrastructure)     66      44.0%
+Enterprise blockchain solutions (e.g., supply chain, identity management)                                              56     37.33%
+Frontend integrations for Web3 (e.g., wallet connections, UI/UX for DApps)                                             41     27.33%
+Chatbot integration with blockchain for lost-and-found systems                                                          1      0.67%
+
+Q5: Security Importance
+-----------------------
+                     Count Percentage
+security_importance                  
+Extremely high         115     76.67%
+High                    29     19.33%
+Moderate                 6       4.0%
+
+Q6: Vulnerabilities
+-------------------
+                                                      Count Percentage
+vulnerabilities                                                       
+Reentrancy attacks                                       94     62.67%
+Front-running                                            93      62.0%
+Denial of Service (DoS) attacks                          84      56.0%
+Logic errors                                             83     55.33%
+Improper access control (Parity Wallet Hack_1)           83     55.33%
+Integer overflow/underflow                               82     54.67%
+Unchecked external calls                                 77     51.33%
+Suicidal contracts (Parity Wallet Hack_2)                56     37.33%
+Flash loan attacks                                       55     36.67%
+Timestamp dependence                                     53     35.33%
+Honeypot                                                 51      34.0%
+Gas limit vulnerabilities                                48      32.0%
+Oracle manipulation                                      43     28.67%
+Greedy Contract                                          36      24.0%
+short address issues                                      1      0.67%
+Social engineering risks through UI/web3 integration      1      0.67%
+Short Address Attack or Padding Attack                    1      0.67%
+
+Q7: Security Analyzers Used
+---------------------------
+Recognized Analyzers Mentioned (Top 20):
+                                  Count Percentage
+Analyzer                                          
+slither                             116     77.33%
+mythril                              77     51.33%
+securify                             59     39.33%
+oyente                               49     32.67%
+echidna                              46     30.67%
+smartcheck                           40     26.67%
+manticore                            37     24.67%
+remix ide static analysis plugin     29     19.33%
+remix                                26     17.33%
+certora prover                       26     17.33%
+chainsecurity                        23     15.33%
+forta                                18      12.0%
+tenderly                             16     10.67%
+solgraph                             15      10.0%
+truffle security                     13      8.67%
+foundry forge                        12       8.0%
+contractfuzzer                       10      6.67%
+scribble                              9       6.0%
+openzeppelin defender                 9       6.0%
+solidityscan                          8      5.33%
+
+Bar chart of top 10 analyzers saved to 'analyzers_top10_bar.png'
+
+Q8: Frequency of Use
+--------------------
+                                Count Percentage
+frequency                                       
+For 75–99% of contracts            50     33.33%
+For 50–75% of contracts            40     26.67%
+For all contracts                  32     21.33%
+For 25–50% of contracts            25     16.67%
+For less than 25% of contracts      3       2.0%
+
+Q9: Stages of Use
+-----------------
+                                                                                                                  Count Percentage
+stages                                                                                                                            
+During the security audit phase                                                                                     117      78.0%
+During initial development / coding                                                                                 113     75.33%
+During unit or integration testing                                                                                  111      74.0%
+After deployment (e.g., production monitoring)                                                                       69      46.0%
+I’d say the bulk happens during coding and audits, with testing as a middle layer                                     1      0.67%
+During peer reviews for quality control and security.                                                                 1      0.67%
+Right after major upgrades and during CI/CD as part of the automated pipelines.                                       1      0.67%
+prototype validation                                                                                                  1      0.67%
+Occasionally, if there’s a major code refactor or update, I’ll re-run analyzers outside of these phases as well.      1      0.67%
+Before deployment as part of manual review checklists                                                                 1      0.67%
+
+Q10: Reasons for Use
+--------------------
+                                                                                                                                       Count Percentage
+reasons                                                                                                                                                
+To identify vulnerabilities                                                                                                              134     89.33%
+To ensure code quality                                                                                                                   123      82.0%
+To learn about potential security issues                                                                                                 102      68.0%
+To comply with organizational or regulatory policies                                                                                      80     53.33%
+Protecting sensitive data, Improving software and system quality.                                                                          1      0.67%
+Sometimes I use them to benchmark different code implementations to see which approach gets fewer flags or requires fewer exceptions.      1      0.67%
+As a student, learning is honestly a big part of it for me, especially seeing what I might have missed or misunderstood.                   1      0.67%
+To enhance user trust and stay up to date on new patterns of vulnerabilities                                                               1      0.67%
+
+Q11: Preferred Interface
+------------------------
+                                                                                                                                                                                                                                                                               Count Percentage
+interface                                                                                                                                                                                                                                                                                      
+Command-line interface (CLI)                                                                                                                                                                                                                                                      51      34.0%
+IDE plugin (e.g., VS Code extension)                                                                                                                                                                                                                                              42      28.0%
+Web-based tool                                                                                                                                                                                                                                                                    32     21.33%
+Desktop application                                                                                                                                                                                                                                                               24      16.0%
+I’m most comfortable with a command-line interface (CLI) for flexibility and scripting, but I do appreciate IDE plugins (like VS Code extensions) for convenience during development. Web-based tools are good for quick checks or when collaborating in shared environments.      1      0.67%
+
+Q12: Typical Input Type
+-----------------------
+                                                                                                                                                               Count Percentage
+input_type                                                                                                                                                                     
+Multiple contracts or transactions                                                                                                                                74     49.33%
+A single contract or transaction                                                                                                                                  50     33.33%
+Large datasets of contracts or transactions                                                                                                                       24      16.0%
+Multiple contracts or transactions, Occasionally a single contract (for small utilities or simple prototypes) Rarely do I need to scan huge datasets at once.      1      0.67%
+Smart Contract Source Code                                                                                                                                         1      0.67%
+
+Q13: Preferred Pricing Model
+----------------------------
+                                    Count Percentage
+pricing                                             
+Freemium (free with paid features)     78      52.0%
+Paid subscription                      47     31.33%
+One-time purchase                      14      9.33%
+Free                                   11      7.33%
+
+Q14: Max Allowed Run Time
+-------------------------
+                    Count Percentage
+max_time                            
+1–5 minutes            51      34.0%
+10–30 minutes          48      32.0%
+5–10 minutes           47     31.33%
+Less than 1 minute      4      2.67%
+
+Q15: Verification Time
+----------------------
+                      Count Percentage
+verification_time                     
+15–30 minutes            66      44.0%
+5–15 minutes             54      36.0%
+30–60 minutes            19     12.67%
+Less than 5 minutes       6       4.0%
+More than 60 minutes      5      3.33%
+
+Q16: Confidence in Accuracy
+---------------------------
+                                                                       Count Percentage
+confidence                                                                             
+Confident — but I verify critical findings manually                      110     73.33%
+Somewhat confident — I perform significant manual review                  23     15.33%
+Fully confident — I trust the results without additional verification     17     11.33%
+
+Q17: Factors Increasing Confidence
+----------------------------------
+                                                                                                                                                                                                                                                      Count Percentage
+confidence_increase                                                                                                                                                                                                                                                   
+The analyzer provides detailed explanations for each reported vulnerability                                                                                                                                                                             124     82.67%
+The analyzer is well-known and reputable                                                                                                                                                                                                                123      82.0%
+The analyzer is regularly updated                                                                                                                                                                                                                       109     72.67%
+I’ve had positive past experiences with the analyzer                                                                                                                                                                                                     93      62.0%
+The analyzer has a low false positive rate                                                                                                                                                                                                               92     61.33%
+I’ve received recommendations from peers                                                                                                                                                                                                                 55     36.67%
+The analyzer is open-source                                                                                                                                                                                                                              49     32.67%
+Trusted by the team                                                                                                                                                                                                                                       1      0.67%
+All of these are big ones for me. If a tool is popular in the community, open source, and keeps getting updates, that's a good sign. The explanations really help too, because then it’s more like learning rather than just getting error messages.      1      0.67%
+is not totally free                                                                                                                                                                                                                                       1      0.67%
+
+Q18: Factors Reducing Confidence
+--------------------------------
+                                                                                                                   Count Percentage
+confidence_decrease                                                                                                                
+The analyzer is outdated or not regularly maintained                                                                 107     71.33%
+The analyzer has a high false positive rate                                                                          106     70.67%
+The analyzer lacks explanations for flagged vulnerabilities                                                           98     65.33%
+The analyzer is unable to detect recent or emerging vulnerability types                                               91     60.67%
+The analyzer doesn't have sufficient support or documentation                                                         75      50.0%
+I've had negative past experiences with the analyzer                                                                  67     44.67%
+The analyzer has a poor user interface                                                                                63      42.0%
+The analyzer has a complex installation process                                                                       37     24.67%
+nan                                                                                                                    1      0.67%
+Not integrating well with my workflow or development environment (e.g., not supporting my CI/CD pipeline or IDE).      1      0.67%
+totally free                                                                                                           1      0.67%
+
+Q19: Ignored Vulnerability (Reasons)
+------------------------------------
+                                                                                             Count Percentage
+ignored_vulnerability                                                                                        
+No, I always review or address flagged vulnerabilities                                          52     34.67%
+Yes, due to a high false positive rate                                                          50     33.33%
+Yes, due to unclear or insufficient explanations                                                28     18.67%
+Yes, due to time or resource constraints                                                        18      12.0%
+Low risk                                                                                         1      0.67%
+Yes, due to a high false positive rate and Yes, due to unclear or insufficient explanations      1      0.67%
+
+Q20: In-depth Analysis of Reasons for Ignoring Vulnerabilities
+-------------------------------------------------------------
+Number of detailed responses: 131
+
+Sentiment Analysis of Ignore Reasons:
+Sentiment  Count  Percentage
+ Positive     63       48.09
+ Negative     59       45.04
+  Neutral      9        6.87
+
+Topic Modeling for Ignore Reasons:
+- Topic 1: function, reentrancy, flagged, false, positive, external, risk
+- Topic 2: flagged, ignored, never, potential, review, time, overflow
+- Topic 3: ignore, risk, false, ignored, minor, critical, optimization
+
+Q21: Most Helpful Kinds of Explanation
+--------------------------------------
+                                                                                                                                          Count Percentage
+helpful_explanations                                                                                                                                      
+A brief description of the vulnerability                                                                                                    123      82.0%
+Suggestions on how to fix or mitigate the issue                                                                                             123      82.0%
+The exact location in the code where it occurs                                                                                              117      78.0%
+A demonstration example of how the vulnerability could be exploited                                                                          87      58.0%
+References to related security standards or best practices                                                                                   73     48.67%
+A simulation of the vulnerability’s effect (e.g., before vs. after contract state)                                                           69      46.0%
+Links to further reading or documentation                                                                                                    61     40.67%
+Visual aids                                                                                                                                   1      0.67%
+Sometimes I also appreciate a severity rating or risk assessment tailored to common scenarios, so I can prioritize what to tackle first.      1      0.67%
+
+Q22: Effect of Explanation Quality on Confidence
+------------------------------------------------
+                    Count Percentage
+explanation_effect                  
+Greatly affects        88     58.67%
+Somewhat affects       43     28.67%
+Neutral / unsure       10      6.67%
+Slightly affects        9       6.0%
+
+Q23: Confidence (True Positive) with Detailed Explanation
+---------------------------------------------------------
+                             Count Percentage
+confidence_with_explanation                  
+Very confident                  84      56.0%
+Somewhat confident              64     42.67%
+Somewhat not confident           1      0.67%
+Neutral                          1      0.67%
+
+Q24: Confidence (True Positive) without Explanation
+---------------------------------------------------
+                                Count Percentage
+confidence_without_explanation                  
+Somewhat not confident             70     46.67%
+Somewhat confident                 41     27.33%
+Neutral                            27      18.0%
+Not confident at all               12       8.0%
+
+Cross-relation between Q23 and Q24: Effect of Explanation on Confidence
+-----------------------------------------------------------------
+Number of respondents who answered both Q23 and Q24: 150
+Mean difference in confidence score (With - Without Explanation): 1.89
+Median difference in confidence score: 2.0
+Number of respondents with higher confidence with explanation: 131 (87.33%)
+Number of respondents with same confidence: 19 (12.67%)
+Number of respondents with lower confidence with explanation: 0 (0.00%)
+
+Grouped bar plot of confidence levels saved to 'confidence_levels_comparison.png'
+Histogram of confidence differences saved to 'confidence_difference_histogram.png'
+
+Q25: Suggestions for Improving Explanation Formats
+--------------------------------------------------
+Number of detailed suggestions provided: 132
+
+Sentiment Analysis of Suggestions:
+Sentiment  Count  Percentage
+ Positive     95       71.97
+ Negative     20       15.15
+  Neutral     17       12.88
+
+Topic Modeling for Suggestions:
+- Topic 1: explanations, trust, help, severity, exploit, prioritize, impact
+- Topic 2: clear, including, improve, visual, fix, technical, examples
+- Topic 3: explanations, examples, clear, provide, links, help, context
+- Topic 4: clear, step, best, context, potential, practices, instead
+
