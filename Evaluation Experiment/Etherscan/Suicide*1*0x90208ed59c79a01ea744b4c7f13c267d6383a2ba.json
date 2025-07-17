@@ -1,0 +1,24 @@
+{
+    "status": "1",
+    "message": "OK",
+    "result": [
+        {
+            "SourceCode": "pragma solidity ^0.5.12;\r\n\r\ncontract OddWins {\r\n    address payable owner;\r\n    uint evenOrOdd = 0;\r\n\r\n    constructor() public {\r\n        owner = msg.sender;\r\n    }\r\n    \r\n    // send 0.1 to bet. you win if you are odd\r\n    function () external payable {\r\n        require(msg.value == 10**17);\r\n        if (evenOrOdd % 2 > 0) {\r\n            uint balance = address(this).balance;\r\n            uint devFee = balance / 100;\r\n            // send developer's fee\r\n            if (owner.send(devFee)) {\r\n                // send winner amount\r\n                if (!msg.sender.send(balance - devFee)) {\r\n                    revert();\r\n                }\r\n            }\r\n        }\r\n        evenOrOdd++;\r\n    }\r\n    \r\n    function shutdown() public {\r\n        selfdestruct(owner);\r\n    }\r\n}",
+            "ABI": "[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"fallback\"},{\"constant\":false,\"inputs\":[],\"name\":\"shutdown\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}]",
+            "ContractName": "OddWins",
+            "CompilerVersion": "v0.5.12+commit.7709ece9",
+            "CompilerType": "solc",
+            "OptimizationUsed": "0",
+            "Runs": "200",
+            "ConstructorArguments": "",
+            "EVMVersion": "Default",
+            "Library": "",
+            "ContractFileName": "",
+            "LicenseType": "None",
+            "Proxy": "0",
+            "Implementation": "",
+            "SwarmSource": "bzzr://b131362a8e6a6ac9d5b94fa8e54ccb007483243d5d7a1fc46eb530740700c6b7",
+            "SimilarMatch": "0xd17c791cf25fa1c283c78b0ab97707a75e921871"
+        }
+    ]
+}
