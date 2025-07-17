@@ -1,0 +1,298 @@
+=== Solidity/Suicide*1*0xf4873530d48d3948c1d25fd6a58b0238751ca6ba.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0x97a8c6af1c65d27f6bb0da4a3ace902c93e24eab.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0xafca09726310a2b8e5fca4200f818a5e6bd0cf50.sol ===
+Solidity/Suicide*1*0xafca09726310a2b8e5fca4200f818a5e6bd0cf50.sol:326:9: Error: Expected primary expression.
+        "[URL] json(https:
+        ^
+
+
+=== Solidity/Suicide*1*0x7cfcf4d781de39588ca516565134da4aee71f94d.sol ===
+Solidity/Suicide*1*0x7cfcf4d781de39588ca516565134da4aee71f94d.sol:1664:38: Error: Expected primary expression.
+        string memory queryString1 = "[URL] ['json(https:
+                                     ^
+
+
+=== Solidity/Suicide*1*0x3c7feb0dc32be219ef51b7fd38b56d62bb864d41.sol ===
+Solidity/Suicide*1*0x3c7feb0dc32be219ef51b7fd38b56d62bb864d41.sol:710:9: Error: Expected primary expression.
+        "[URL] json(https:
+        ^
+
+
+=== Solidity/Suicide*1*0xd9ec750a0aac025f0075413c68502ecf8a9ab64e.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0xf0cfb6e33af9a0bbf70b37662c0f5b3c7483b16d.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*0*0xfc3c1c0550188c649f70e78787c8cd9ff9d3b8d4.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0x0af5f9a338870073707939b39a0ea3ebc0bad00b.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0x0f822ae3fc6e3305b33f95d905c9967bae244d82.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0xbdb0b3f3b4c154f55006ba428790dcb19391a7e8.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0x22cdaa7b4460a046f0cc9878a4f79fdc2f187316.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0x8316b95945abdbc15fb7736c1620e9904cd1d9e5.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0x47d822fcf7d242d4e6f22ab70b63fabab36922c4.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/IntergerOU*0*0x98ca85c59dee34dbc26667eac04f13e39f5f765a.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/IntergerOU*0*0x305239f0bb2d9d7eab58f5123ac5d04226aa9c26.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0xfbf9ae92ecb05bc436d9b1e6c1d928824aedb2f1.sol ===
+Solidity/Suicide*1*0xfbf9ae92ecb05bc436d9b1e6c1d928824aedb2f1.sol:1297:35: Error: Expected primary expression.
+            oraclize_query("URL", "json(https:
+                                  ^----------^
+
+
+=== Solidity/Suicide*1*0x878142b10f5bbd1a3efd8701c4f1cc7001fb9dde.sol ===
+Error: Expected pragma, import directive or contract/interface/library/struct/enum definition.
+ --> Solidity/Suicide*1*0x878142b10f5bbd1a3efd8701c4f1cc7001fb9dde.sol:1:1:
+  |
+1 | {{
+  | ^
+
+
+
+=== Solidity/Suicide*1*0x395cf3ecd8794e9b2c58c2fff0e3d9e58f939319.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Reentrancy*0*0x40b10014a17e997e8e55594cbfb4f085c5ec815b.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0x863df6bfa4469f3ead0be8f9f2aae51c91a907b4.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0xdfe639317f8e7653fd72abeac1900f94952152b2.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/IntergerOU*1*0x3339ec512996fcdfacae2fbe941b6820f2c4e8b2.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0x7b4700f2a2e0765aab00b082613b417cecd0f9f0.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0x4df6de08d11f11ebad5d9e136b768849426fb8a7.sol ===
+Solidity/Suicide*1*0x4df6de08d11f11ebad5d9e136b768849426fb8a7.sol:1665:46: Error: Expected primary expression.
+                string memory queryString1 = "[URL] ['json(https:
+                                             ^
+
+
+=== Solidity/Suicide*1*0x0aaf8865a6cbf417e7ad51fe71fe60f1a0c192f8.sol ===
+Solidity/Suicide*1*0x0aaf8865a6cbf417e7ad51fe71fe60f1a0c192f8.sol:1766:42: Error: Expected primary expression.
+bytes32 rngId = oraclize_query("nested", "[URL] ['json(https:
+                                         ^
+
+
+=== Solidity/Suicide*1*0xbddd99e8aaeb85847703c31a83277856d49961d9.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0x82c6c051adf60a8f4a00a313277763938a0ae29d.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0x5ec71419f100642130e596c352d93dea7589a31f.sol ===
+Solidity/Suicide*1*0x5ec71419f100642130e596c352d93dea7589a31f.sol:1781:38: Error: Expected primary expression.
+        string memory queryString1 = "[URL] ['json(https:
+                                     ^
+
+
+=== Solidity/Suicide*1*0xd8f960a98524ccd3194bcd30a714e3c4e387da01.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0x2a7e1f7932240a1e0609b4b993933649163d8755.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0xa1c1983aa3599657a74cf5a563e880eedc57ae4f.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0x17683235257f2089e3e4acc9497f25386a529507.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/IntergerOU*0*0xec2e5c8d51fdd54fef83db8300399a3c2e167922.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0xdac4f0d74592012eb4baeb608b1992ffe5cc537a.sol ===
+Solidity/Suicide*1*0xdac4f0d74592012eb4baeb608b1992ffe5cc537a.sol:1735:13: Error: Expected primary expression.
+            "[URL] json(https:
+            ^
+
+
+=== Solidity/Suicide*1*0x5e6ed16d845a46b9f863a256e7a3194f2a9e8b5c.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*0*0xf1e6b7f94bb0d70d8a19187f684e4270b0a0c989.sol ===
+Solidity/Suicide*0*0xf1e6b7f94bb0d70d8a19187f684e4270b0a0c989.sol:44:5: Warning: No visibility specified. Defaulting to "public".
+    function ERC20TokenCPN ()
+    ^ (Relevant source part starts here and spans across multiple lines).
+Solidity/Suicide*0*0xf1e6b7f94bb0d70d8a19187f684e4270b0a0c989.sol:55:13: Error: Undeclared identifier.
+        if (regulatorStatus != 2)
+            ^-------------^
+Solidity/Suicide*0*0xf1e6b7f94bb0d70d8a19187f684e4270b0a0c989.sol:69:13: Error: Undeclared identifier.
+        if (regulatorStatus != 2)
+            ^-------------^
+Solidity/Suicide*0*0xf1e6b7f94bb0d70d8a19187f684e4270b0a0c989.sol:73:17: Error: Undeclared identifier. Did you mean "_regulator"?
+                regulator = _regulator;
+                ^-------^
+Solidity/Suicide*0*0xf1e6b7f94bb0d70d8a19187f684e4270b0a0c989.sol:83:13: Error: Undeclared identifier.
+        if (regulatorStatus != 2)
+            ^-------------^
+Solidity/Suicide*0*0xf1e6b7f94bb0d70d8a19187f684e4270b0a0c989.sol:87:17: Error: Undeclared identifier.
+                regulatorStatus = _status;
+                ^-------------^
+Solidity/Suicide*0*0xf1e6b7f94bb0d70d8a19187f684e4270b0a0c989.sol:88:44: Error: Undeclared identifier.
+                Management (msg.sender, 3, regulator, _status);
+                                           ^-------^
+Solidity/Suicide*0*0xf1e6b7f94bb0d70d8a19187f684e4270b0a0c989.sol:97:54: Error: Undeclared identifier.
+        if ((agents[msg.sender].permission == 3) && (regulatorStatus != 2))
+                                                     ^-------------^
+Solidity/Suicide*0*0xf1e6b7f94bb0d70d8a19187f684e4270b0a0c989.sol:110:28: Error: Undeclared identifier.
+        if ((msg.sender == regulator) && (regulatorStatus == 1 || regulatorStatus == 2) && (amount + _value > amount))
+                           ^-------^
+Solidity/Suicide*0*0xf1e6b7f94bb0d70d8a19187f684e4270b0a0c989.sol:110:43: Error: Undeclared identifier.
+        if ((msg.sender == regulator) && (regulatorStatus == 1 || regulatorStatus == 2) && (amount + _value > amount))
+                                          ^-------------^
+Solidity/Suicide*0*0xf1e6b7f94bb0d70d8a19187f684e4270b0a0c989.sol:110:67: Error: Undeclared identifier.
+        if ((msg.sender == regulator) && (regulatorStatus == 1 || regulatorStatus == 2) && (amount + _value > amount))
+                                                                  ^-------------^
+Solidity/Suicide*0*0xf1e6b7f94bb0d70d8a19187f684e4270b0a0c989.sol:123:28: Error: Undeclared identifier.
+        if ((msg.sender == regulator) && (regulatorStatus == 1 || regulatorStatus == 2) && (agents[_to].balance >= _value))
+                           ^-------^
+Solidity/Suicide*0*0xf1e6b7f94bb0d70d8a19187f684e4270b0a0c989.sol:123:43: Error: Undeclared identifier.
+        if ((msg.sender == regulator) && (regulatorStatus == 1 || regulatorStatus == 2) && (agents[_to].balance >= _value))
+                                          ^-------------^
+Solidity/Suicide*0*0xf1e6b7f94bb0d70d8a19187f684e4270b0a0c989.sol:123:67: Error: Undeclared identifier.
+        if ((msg.sender == regulator) && (regulatorStatus == 1 || regulatorStatus == 2) && (agents[_to].balance >= _value))
+                                                                  ^-------------^
+
+
+=== Solidity/Suicide*1*0xb31820c1d84e183377030b6d3f0e1ee5c1cff643.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0xb919b2903e07293bc84372471a7081ecb69e8d36.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0x7f37472ee88062acc82f14ccfe6e7bf5f469dd05.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/IntergerOU*1*0x7ee41a4c66e92fe28abd5bde30ad644a2dc8b15f.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0x4d32df060c8cb4aa1851830110a0a4dc96692371.sol ===
+Solidity/Suicide*1*0x4d32df060c8cb4aa1851830110a0a4dc96692371.sol:156:1: Error: Function, variable, struct or modifier declaration expected.
+/
+^
+
+
+=== Solidity/Reentrancy*0*0x643d60febd4f892a36d88ccd1fe8f4bfb5ef8807.sol ===
+Solidity/Reentrancy*0*0x643d60febd4f892a36d88ccd1fe8f4bfb5ef8807.sol:146:1: Error: Function, variable, struct or modifier declaration expected.
+/
+^
+
+
+=== Solidity/Suicide*1*0x40360631db85eddab268dd1b6ffea4377733e125.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0xbcb2797f9a74d9099d6077c743feb3bc812eb2a4.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/IntergerOU*1*0xd5abcc4c80fd01d8822f35f379fbcebf7a8b8679.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0x4f2875f631f4fc66b8e051defba0c9f9106d7d5a.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0x38e9d51419dc53bb8c899a5fd473ce111b1757c4.sol ===
+Solidity/Suicide*1*0x38e9d51419dc53bb8c899a5fd473ce111b1757c4.sol:1589:23: Error: Expected primary expression.
+    string queryUrl = "http:
+                      ^
+
+
+=== Solidity/Suicide*1*0x77d7536eb289f61c47c728142bda4da54ca9c71f.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/IntergerOU*1*0x6954354a6c94b2d5c4d1b8e40b4bee1e0615d72e.sol ===
+Solidity/IntergerOU*1*0x6954354a6c94b2d5c4d1b8e40b4bee1e0615d72e.sol:190:40: Error: Expected primary expression.
+  string public tokenMetadataBaseURI = "http:
+                                       ^----^
+
+
+=== Solidity/Suicide*1*0xb23fecec4202b868c228ac0a59cc12a9f93bd605.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0xd1dd24d4bcba675ee2c2d7ed841a2d63ed9654a2.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0x3bcaf56923335062e8f272d011efd2e40fa42147.sol ===
+unrecognised option '--ast-compact-json'
+
+
+=== Solidity/Suicide*1*0xa3812950f92bc324e274be2df8f3fbe460e4ed52.sol ===
+Solidity/Suicide*1*0xa3812950f92bc324e274be2df8f3fbe460e4ed52.sol:151:1: Error: Function, variable, struct or modifier declaration expected.
+/
+^
+
+
+=== Solidity/Suicide*1*0x22f75cb4b25b32f4be71744e4e419c9e9b14bed3.sol ===
+Solidity/Suicide*1*0x22f75cb4b25b32f4be71744e4e419c9e9b14bed3.sol:1665:38: Error: Expected primary expression.
+        string memory queryString1 = "[URL] ['json(https:
+                                     ^------------------^
+
+
+=== Solidity/Suicide*1*0x6b922dd2243de553ce56857d70c9d7622c70aef6.sol ===
+unrecognised option '--ast-compact-json'
+
+
