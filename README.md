@@ -12,32 +12,24 @@ The repository is organized as follows:
   - `Tools_Labels/`: Results and summary of all tools.
 
 - **`Surveying Smart Contract Developers/`**: Anonymized survey data and analysis scripts.
-  - `raw_data.csv`: Anonymized responses from 150 developers (Q1–Q25), excluding personally identifiable information.
-  - `qualitative_analysis.py`: Python script for coding open-ended responses (e.g., Q20) with inter-rater reliability (Cohen’s κ = 0.866).
-  - `results/`: Aggregated survey results (e.g., percentages for RQ5–RQ7).
-- **`analysis/`**: Scripts for computing evaluation metrics and generating results.
-  - `metrics.py`: Computes precision, recall, FPR, and FNR for tool performance.
-  - `visualizations.py`: Generates figures (e.g., precision-recall curves, FPR distributions).
-  - `results/`: Output tables and figures (e.g., F1-scores, survey theme frequencies).
-- **`requirements.txt`**: Lists Python dependencies for analysis scripts (e.g., pandas, matplotlib).
+  - `Developer Confidence in Smart Contract Security Analyzers - Google Forms.pdf`: Anonymized survey (Q1–Q25).
+  - `Developer Confidence in Smart Contract Security Analyzers (Responses).xlsx`: Anonymized responses from 150 developers (Q1–Q25), excluding personally identifiable information.
+  - `Card Sorting Q20 and Q25 XaD.xlsx`: The card sorting results.
+  - `survey_analysis_results.txt`: The survey results.
+
 - **`LICENSE`**: Specifies the MIT License for the replication package.
 
 ## Prerequisites
 To replicate the study, ensure the following are installed:
-- **Python 3.8+**: For running analysis scripts.
+- **Python 3.12+**: For running analysis scripts.
 - **Security Tools**:
   - Confuzzius (v1.0.0)
   - Mythril (v0.24.7)
   - Osiris (v0.2.1)
   - Oyente (v0.2.7)
   - Slither (v0.10.4)
-- **Dependencies**: Install Python dependencies using:
-  ```bash
-  pip install -r requirements.txt
-  ```
-- **Ethereum Node**: Access to an Ethereum node or Etherscan API for transaction history validation (optional for full replication).
 
-Detailed installation instructions for each tool are provided in `tools/README.md`.
+Detailed installation instructions for each tool are provided in `https://smartbugs.github.io/`.
 
 ## Replication Instructions
 1. **Clone the Repository**:
