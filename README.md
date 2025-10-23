@@ -1,7 +1,7 @@
 # Replication Package for Smart Contract Security Study
 
 ## Overview
-This repository provides the replication package for a study evaluating the effectiveness of smart contract security analysis tools and developer perceptions of their usability and trust. The study benchmarks five widely-used tools (Confuzzius, Mythril v0.24.7, Osiris, Oyente, and Slither v0.10.4) on a dataset of 653 real-world Ethereum smart contracts, assessing metrics such as precision, recall, false positive rate (FPR), and false negative rate (FNR) for vulnerabilities including reentrancy, suicide, and integer overflow/underflow. Additionally, a survey of 150 smart contract developers explores factors affecting trust, reasons for ignoring reported vulnerabilities, and preferences for vulnerability explanations. This package includes the dataset, tool evaluation scripts, survey data, and analysis code to facilitate replication and verification of the study’s findings, adhering to the principles of open science for the ICSE 2026 Research Track submission.
+This repository provides the replication package for a study evaluating the effectiveness of smart contract security analysis tools and developer perceptions of their usability and trust. The study benchmarks five widely-used tools (Confuzzius, Mythril v0.24.7, Osiris, Oyente, and Slither v0.10.4) on a dataset of 653 real-world Ethereum smart contracts, assessing metrics such as precision, recall, false positive rate (FPR), and false negative rate (FNR) for vulnerabilities including reentrancy, suicide, and integer overflow/underflow. Additionally, a survey of 150 smart contract developers explores factors affecting trust, reasons for ignoring reported vulnerabilities, and preferences for vulnerability explanations. This package includes the dataset, tool evaluation scripts, survey data, and analysis code to facilitate replication and verification of the study’s findings, adhering to the principles of open science for the  Research Track submission.
 
 ## Repository Structure
 The repository is organized as follows:
@@ -77,4 +77,4 @@ Follow these steps to replicate the study:
 This replication package is licensed under the MIT License (see `LICENSE`).
 
 ## Contact
-For issues or questions, please open a GitHub issue or contact the repository maintainers anonymously via the ICSE 2026 submission system.
+For issues or questions, please open a GitHub issue or contact the repository maintainers anonymously via the  submission system.
