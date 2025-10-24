@@ -1,14 +1,15 @@
 # Replication Package for Smart Contract Security Study
 
 ## Overview
-This repository provides the replication package for a study evaluating the effectiveness of smart contract security analysis tools and developer perceptions of their usability and trust. The study benchmarks five widely-used tools (Confuzzius, Mythril v0.24.7, Osiris, Oyente, and Slither v0.10.4) on a dataset of 653 real-world Ethereum smart contracts, assessing metrics such as precision, recall, false positive rate (FPR), and false negative rate (FNR) for vulnerabilities including reentrancy, suicide, and integer overflow/underflow. Additionally, a survey of 150 smart contract developers explores factors affecting trust, reasons for ignoring reported vulnerabilities, and preferences for vulnerability explanations. This package includes the dataset, tool evaluation scripts, survey data, and analysis code to facilitate replication and verification of the study’s findings, adhering to the principles of open science for the  Research Track submission.
+This repository provides the replication package for a study evaluating the effectiveness of smart contract security analysis tools and developer perceptions of their usability and trust. The study benchmarks six widely-used tools (Confuzzius, DLVA, Mythril v0.24.7, Osiris, Oyente, and Slither v0.10.4) on a dataset of 653 real-world Ethereum smart contracts, assessing metrics such as precision, recall, false positive rate (FPR), and false negative rate (FNR) for vulnerabilities including reentrancy, suicide, and integer overflow/underflow. Additionally, a survey of 150 smart contract developers explores factors affecting trust, reasons for ignoring reported vulnerabilities, and preferences for vulnerability explanations. This package includes the dataset, tool evaluation scripts, survey data, and analysis code to facilitate replication and verification of the study’s findings, adhering to the principles of open science for the  Research Track submission.
 
 ## Repository Structure
 The repository is organized as follows:
 
-- **`Empirical Evaluation of Security Analyzers/`**: Contains the curated dataset of 653 Ethereum smart contracts retrieved from Etherscan, including source code and vulnerability labels. In addition to the evaluation results of the five widely-used tools (Confuzzius, Mythril, Osiris, Oyente, and Slither):
+- **`Empirical Evaluation of Security Analyzers/`**: Contains the curated dataset of 653 Ethereum smart contracts retrieved from Etherscan, including source code and vulnerability labels. In addition to the evaluation results of the six widely-used tools (Confuzzius, DLVA, Mythril, Osiris, Oyente, and Slither):
   - `Etherscan/`: Collected Etherscan files (.json).
   - `Solidity/`: Extracted Solidity source code files (.sol).
+  - `Bytecode/`: Extracted runtime bytecode files (.rt.hex).
   - `Tools_Labels/`: Results and summary of all tools.
 
 - **`Surveying Smart Contract Developers/`**: Anonymized survey data and analysis scripts.
@@ -24,6 +25,7 @@ To replicate the study, ensure the following are installed:
 - **Python 3.12+**: For running analysis scripts.
 - **Security Tools**:
   - Confuzzius (v1.0.0)
+  - DLVA
   - Mythril (v0.24.7)
   - Osiris (v0.2.1)
   - Oyente (v0.2.7)
